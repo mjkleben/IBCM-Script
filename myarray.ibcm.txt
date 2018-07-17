@@ -1,0 +1,34 @@
+C000 000		jmp	start	comment
+0001 001	size	dw	4	size of array
+0000 000	max	dw	0	set max as 0 to be able to compare
+0000 000	t	dw	0	variable to store the max
+0000 000	i	dw	0	i = 0;
+0000 000	a	dw	20	int a[];
+0000 000	ldit	dw	3000
+0000 000				leave space for changes
+0000 000				leave space for changes
+0000 000				leave space for changes
+0000 000				leave space for changes
+0000 000				leave space for changes
+0000 000				leave space for changes
+0000 000				leave space for changes
+0000 000	start	load	size	load the size of the array		
+0000 000		jmpe	end	if(size == 0) go to end	
+0000 000		
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
+0000 000
